@@ -1,0 +1,2 @@
+# Start job every 1 minute
+* * * * * root /usr/bin/php /home/gaurav/work/misc/vaccineavailablity.php
