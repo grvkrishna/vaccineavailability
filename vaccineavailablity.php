@@ -64,11 +64,7 @@ foreach($listvaccine["centers"] as $vlist){
             }
         }
 
-            // if($vlist["sessions"][0]["min_age_limit"] == 18 and $vlist["sessions"][0]["date"] == "19-06-2021" and  $vlist["sessions"][0]["available_capacity_dose1"] > 1 ){
-            //         echo "Vaccine available bhosdk\n";
-            // }else{
-            //     echo "gand mrao\n";
-            // }
+        
     }
     // }
 
