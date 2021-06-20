@@ -48,12 +48,12 @@ foreach($listvaccine["centers"] as $vlist){
                 // print_r($session);
                 // echo "this is";
                 if($session["available_capacity_dose1"] > 1 ){
-                    echo "Vaccine available bhosdk at  ".$vlist["center_id"]. "    ".$vlist["name"]."   ".$session["date"]."    ".$session["available_capacity_dose1"]. "\n";
+                    echo "Vaccine available at  ".$vlist["center_id"]. "    ".$vlist["name"]."   ".$session["date"]."    ".$session["available_capacity_dose1"]. "\n";
                     $cmd = "play -q -n synth 0.1 sin 880 >& /dev/null";
                     shell_exec($cmd);
                     echo "<br>";
                 }else{
-                    echo "gand marao \n";
+                    echo "Not available \n";
                     echo "<br>";
                 }
             }else{
